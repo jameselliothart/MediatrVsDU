@@ -16,3 +16,7 @@ type WeatherForecastController () =
     [<HttpGet("{day}")>]
     member this.Get(day) =
         Weather day |> mediator |> this.Ok
+
+    [<HttpGet("{day}/{bad}")>]
+    member this.BadGet(day, bad) =
+        Bad (day, bad) |> mediator |> this.Ok

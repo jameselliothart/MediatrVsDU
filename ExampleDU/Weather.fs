@@ -8,6 +8,7 @@ module Weather =
 
     type Query =
     | Weather of day: string
+    | Bad of day: string * bad: string
 
     let mediator = function
         | Weather d ->
