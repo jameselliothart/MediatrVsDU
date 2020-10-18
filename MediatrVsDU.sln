@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleMediatR", "ExampleMediatR\ExampleMediatR.csproj", "{BA76B240-D3F7-4FB4-8A75-EC0C10CD4BDF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ExampleDU", "ExampleDU\ExampleDU.fsproj", "{3D164935-E618-4008-BE93-B8BC93CB0E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{BA76B240-D3F7-4FB4-8A75-EC0C10CD4BDF}.Release|x64.Build.0 = Release|Any CPU
 		{BA76B240-D3F7-4FB4-8A75-EC0C10CD4BDF}.Release|x86.ActiveCfg = Release|Any CPU
 		{BA76B240-D3F7-4FB4-8A75-EC0C10CD4BDF}.Release|x86.Build.0 = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|x64.Build.0 = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D164935-E618-4008-BE93-B8BC93CB0E5B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
