@@ -13,7 +13,7 @@ namespace ExampleMediatR.Controllers
             var weather = new WeatherForecast
             {
                 Date = DateTime.Now,
-                TemperatureC = r.Next(0, 30),
+                TemperatureC = r.Next(-20,55),
                 Summary = $"Weather for {request.Day}"
             };
             return Task.FromResult(weather);
