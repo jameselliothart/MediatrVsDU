@@ -9,11 +9,11 @@ namespace ExampleMediatR.Controllers
     {
         public Task<WeatherForecast> Handle(WeatherQuery request, CancellationToken cancellationToken)
         {
-            var r = new Random();
+            var rng = new Random();
             var weather = new WeatherForecast
             {
                 Date = DateTime.Now,
-                TemperatureC = r.Next(-20,55),
+                TemperatureC = rng.Next(-20,55),
                 Summary = $"Weather for {request.Day}"
             };
             return Task.FromResult(weather);
