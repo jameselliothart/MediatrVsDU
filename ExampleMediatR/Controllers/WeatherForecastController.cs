@@ -22,5 +22,13 @@ namespace ExampleMediatR.Controllers
             WeatherForecast result = await mediator.Send(query);
             return Ok(result);
         }
+
+        [HttpGet("{day}/{bad}")]
+        public async Task<IActionResult> BadGet(string day, string bad)
+        {
+            var query = new BadQuery { Day = day, Bad = bad };
+            string result = await mediator.Send(query);
+            return Ok(result);
+        }
     }
 }
